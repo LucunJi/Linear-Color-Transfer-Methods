@@ -90,8 +90,8 @@ def main():
     color_space_from = cv2.COLOR_BGR2RGB
     color_space_to = cv2.COLOR_RGB2BGR
 
-    img1 = cv2.imread('./inputs/Sundown-behind-Bredelem.jpg')
-    img2 = cv2.imread('./inputs/Wide-sky-over-green-fields-in-Harz-region.jpg')
+    img1 = cv2.imread('./inputs/Trafo-Galerie-in-Prague.jpg')
+    img2 = cv2.imread('./inputs/Stained-glass-window-in-St.-Vitus-Cathedral.jpg')
 
     img1 = cv2.cvtColor(img1, color_space_from)
     img2 = cv2.cvtColor(img2, color_space_from)
